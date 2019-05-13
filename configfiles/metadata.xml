@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ExtensionPackages>
+        <ExtensionPackage dependsOn="" description="TrinaSolar IoT ChartsWidgets" minimumThingWorxVersion="8.3.0" name="TrinaCharts" packageVersion="1.0.5" vendor="trinasolar.com"> 
+        </ExtensionPackage>
+    </ExtensionPackages>
+    <Widgets>
+        <Widget name="circularpiechart">
+            <UIResources>
+                <FileResource description="IDE.JS" file="circularpiechart.ide.js" isDevelopment="true" isRuntime="false" type="JS"/>
+                <FileResource description="IDE.CSS" file="circularpiechart.ide.css" isDevelopment="true" isRuntime="false" type="CSS"/>
+                <FileResource description="RUNTIME.JS" file="circularpiechart.runtime.js" isDevelopment="false" isRuntime="true" type="JS"/>
+                <FileResource description="RUNTIME.CSS" file="circularpiechart.runtime.css" isDevelopment="false" isRuntime="true" type="CSS"/>
+                <FileResource type="JS" file="js/echarts.min.js" description="ECHARTS.JS" isDevelopment="false" isRuntime="true" />
+            </UIResources>
+        </Widget>
+        <Widget name="linechart">
+            <UIResources>
+                <FileResource description="IDE.JS" file="linechart.ide.js" isDevelopment="true" isRuntime="false" type="JS"/>
+                <FileResource description="IDE.CSS" file="linechart.ide.css" isDevelopment="true" isRuntime="false" type="CSS"/>
+                <FileResource description="RUNTIME.JS" file="linechart.runtime.js" isDevelopment="false" isRuntime="true" type="JS"/>
+                <FileResource description="RUNTIME.CSS" file="linechart.runtime.css" isDevelopment="false" isRuntime="true" type="CSS"/>
+                <FileResource type="JS" file="js/echarts.min.js" description="ECHARTS.JS" isDevelopment="false" isRuntime="true" />
+            </UIResources>
+        </Widget>
+    </Widgets>
+</Entities>
